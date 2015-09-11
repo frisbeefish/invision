@@ -19,7 +19,8 @@ At a minimum, we would like to see the following implemented:
 ```
 cd consumer
 npm install
-node index.js
+
+npm start
 
 (Ctrl-C to terminate)
 ```
@@ -33,7 +34,8 @@ node index.js
 ```
 cd producer
 npm install
-node index.js
+
+npm start
 
 (Ctrl-C to terminate)
 ```

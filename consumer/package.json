@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node index",
+    "test": "lab -t 0"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "code": "^1.5.0",
     "connect": "^3.4.0",
+    "lab": "^5.16.1",
     "qs": "^5.1.0"
   }
 }
