@@ -47,3 +47,7 @@ node index.js
 
 ![](consumer.png?raw=true)
 
+## UML "Producer" Activity Diagram 
+
+![](producer.png?raw=true)
+
