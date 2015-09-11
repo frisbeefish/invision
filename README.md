@@ -12,7 +12,38 @@ At a minimum, we would like to see the following implemented:
 
 *NOTE:* This implementation of the challenge supports these operators (not only "+"): +, -, /, *
 
+### Installing and Running the consumer 
+
+(Run this first. It will listen on port 3000)
+
+```
+cd consumer
+npm install
+node index.js
+
+(Ctrl-C to terminate)
+```
+
+### Installing and Running the producer(s) 
+
+(Only run these once you've got the consumer running.)
+
+*NOTE:* You can open a number of terminals and run a number of instances of the producer. All of them will send requests to the single consumer app that is running and listening on port 3000.
+
+```
+cd producer
+npm install
+node index.js
+
+(Ctrl-C to terminate)
+```
+
+
 ## UML Sequence Diagram 
 
 ![](sequence.png?raw=true)
+
+## UML "Consumer" Activity Diagram 
+
+![](consumer.png?raw=true)
 
