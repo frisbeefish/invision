@@ -1,5 +1,6 @@
 # invision
 
-![](dog-05.jpg?raw=true)
+## Sequence Diagram 
 
-http://frisbeefish.com/portfolio2014/images/thumbs/4.png
+![](sequence?raw=true)
+
