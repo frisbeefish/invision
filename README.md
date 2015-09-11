@@ -2,5 +2,5 @@
 
 ## Sequence Diagram 
 
-![](sequence?raw=true)
+![](sequence.png?raw=true)
 
